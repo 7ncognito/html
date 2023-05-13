@@ -1,0 +1,86 @@
+ form{ 
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+
+  }
+  .container{
+   margin-top: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+  -webkit-box-shadow: -17px -19px 60px 35px rgba(0,0,0,0.23);
+  -moz-box-shadow: -17px -19px 60px 35px rgba(0,0,0,0.23);
+  box-shadow: 11px 20px 20px 16px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  width: 40pc;
+
+  }
+
+  input[type=text]{
+   width: 220px;
+  height: 36px;
+  border: 0.7px solid;
+  border-radius: 5px;
+  -webkit-box-shadow: inset -3px -5px 13px -7px rgba(0,0,0,0.23);
+  -moz-box-shadow: inset -3px -5px 13px -7px rgba(0,0,0,0.23);
+  box-shadow: inset 6px 8px 9px 0px rgba(0,0,0,0.23);
+  }
+  input[type=email]{
+   width: 220px;
+  height: 36px;
+  border: 0.7px solid;
+  border-radius: 5px;
+  -webkit-box-shadow: inset -3px -5px 13px -7px rgba(0,0,0,0.23);
+  -moz-box-shadow: inset -3px -5px 13px -7px rgba(0,0,0,0.23);
+  box-shadow: inset 6px 8px 9px 0px rgba(0,0,0,0.23);
+  }
+  input[type=password]{
+    width: 220px;
+  height: 36px;
+  border: 0.7px solid;
+  border-radius: 5px;
+  -webkit-box-shadow: inset -3px -5px 13px -7px rgba(0,0,0,0.23);
+  -moz-box-shadow: inset -3px -5px 13px -7px rgba(0,0,0,0.23);
+  box-shadow: inset 6px 8px 9px 0px rgba(0,0,0,0.23);
+  }
+  label{
+    font-family: cursive;
+    padding: 5px;
+  }
+ input[type=submit]{
+    padding: 5px;
+  background-color: rgb(87 231 81 / 67%);
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+input[type=submit]:hover{
+    padding: 5px;
+  background-color: rgb(87 231 81 / 67%);
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  transition-duration: 0.3s;
+}
+.container> a{
+    text-decoration: none;
+}
+.container> a:hover{
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition-duration: 0.4s;
+}
+h3{
+    font-family: cursive;
+}
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
